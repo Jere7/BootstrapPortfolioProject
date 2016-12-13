@@ -21,7 +21,7 @@
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 240px;
-  background-color: green;
+  background-color: #005589;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -75,15 +75,13 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 160px;
 }
-.header {
-  color: grey;
-
-
+.aside {
+  position: absolute;
+  right: 0;
+  top: 35%;
 }
-
-.skills {
-  list-style: none;
-
+h2 {
+  align-items: center;
 }
 
 .footer,
